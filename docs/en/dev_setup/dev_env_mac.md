@@ -67,7 +67,7 @@ To build for [other targets](../dev_setup/dev_env.md#supported-targets) you will
    source .venv/bin/activate
    ```
 
-    You'll need to re-run this command in each new terminal session. To activate it automatically when you `cd` into the repo, consider a tool like [direnv](https://direnv.net/) or add the activation to your `~/.zshrc`.
+   You'll need to re-run this command in each new terminal session. To activate it automatically when you `cd` into the repo, consider a tool like [direnv](https://direnv.net/) or add the activation to your `~/.zshrc`.
    :::
 
    This installs:
