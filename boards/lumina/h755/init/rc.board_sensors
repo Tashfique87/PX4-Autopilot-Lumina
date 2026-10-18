@@ -1,0 +1,14 @@
+#!/bin/sh
+#
+# board specific sensors init
+#------------------------------------------------------------------------------
+
+board_adc start
+
+icm45686 -R 14 -b 4 -s start
+
+# Internal baro
+bmp581 -I start -a 118
+
+# External mag
+# qmc5883l -X start -a 13
